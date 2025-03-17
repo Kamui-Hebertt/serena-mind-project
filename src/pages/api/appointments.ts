@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { connectToDatabase } from "../../app/lib/mongodb";
-import Appointment from "../models/Appointment";
+import Appointment from "../../models/Appointment";
 import { Appointment as AppointmentType } from "../../types/appointment";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
