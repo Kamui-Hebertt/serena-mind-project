@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { connectToDatabase } from "../lib/mongodb";
+import { connectToDatabase } from "../../app/lib/mongodb";
 import Appointment from "../models/Appointment";
 import { Appointment as AppointmentType } from "../../types/appointment";
 
